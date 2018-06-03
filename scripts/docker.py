@@ -235,11 +235,11 @@ if __name__ == "__main__":
 		parser.add_argument("stat", help="container stat", choices=["status", "uptime", "cpu","mem", "disk", "netin", "netout"])
 		args = parser.parse_args()
 		# validate the parameter for container
-		m = re.match("(^[a-zA-Z0-9-_]+$)", args.container)
-		if not m:
-			print ("Invalid parameter for container id detected")
-			debug("Invalid parameter for container id detected" + str(args.container))
-			sys.exit(2)
+		#m = re.match("(^[a-zA-Z0-9-_]+$)", args.container)
+		#if not m:
+		#	print ("Invalid parameter for container id detected")
+		#	debug("Invalid parameter for container id detected" + str(args.container))
+		#	sys.exit(2)
 
 		# call the correct function to get the stats
 		if args.stat == "status":
