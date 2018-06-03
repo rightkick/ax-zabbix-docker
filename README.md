@@ -26,4 +26,4 @@
 ## Zabbix GUI
 * Add template from zabbix-templates/zabbix_docker_templates.xml to Zabbix Templates (file contains 2 templates, to active and passive modes)
 * Go to Hosts list, select your server and add "Template AX App Docker ACTIVE" (or PASSIVE, if you use passive mode for data collecting) to your server.
-* You should have CPU and memory graphs for aach discovered container under Monitoring -> Graphs
+* You should have CPU and memory graphs for each discovered container under Monitoring -> Graphs
